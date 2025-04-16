@@ -2,7 +2,11 @@ package com.drewjya.projecthill.service
 
 import com.drewjya.projecthill.entity.Project
 import com.drewjya.projecthill.exception.DefaultNotFoundException
-import com.drewjya.projecthill.model.*
+import com.drewjya.projecthill.model.CreateProjectRequest
+import com.drewjya.projecthill.model.ResultResponse
+import com.drewjya.projecthill.model.UpdateProjectRequest
+import com.drewjya.projecthill.model.toProject
+import com.drewjya.projecthill.model.toResponse
 import com.drewjya.projecthill.repository.ProjectRepository
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
